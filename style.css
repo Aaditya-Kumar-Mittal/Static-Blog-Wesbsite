@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap");
+
+/* Define the unique font class */
+.playwrite-be-vlg-google_font_one {
+  font-family: "Playwrite BE VLG", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400; /* or any weight you prefer */
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: rgb(35, 40, 48);
+}
+
+.navbar {
+  /* background-color: red; */
+  width: 85vw;
+  margin: 40px auto;
+  padding: 25px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 21px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-right-span {
+  margin: auto 10px;
+}
+
+.introduction {
+  color: white;
+  height: 70vh;
+  width: 85vw;
+  padding: 100px;
+  margin: auto;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.intro-image-div {
+  height: 210px;
+  margin-bottom: -50px;
+}
+
+.introduction > h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(227, 107, 108);
+}
+
+.introduction > h3 {
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+hr {
+  margin: auto;
+  margin-top: 40px;
+  background-color: grey;
+  width: 90vw;
+}
+
+.topic-bar {
+  margin: 20px auto;
+  padding: 10px;
+  /* background-color: red; */
+  width: 85vw;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 15px;
+}
+
+.grid-card-container {
+  width: 80vw;
+  margin: 40px auto;
+  /* background-color: red; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px 30px;
+  padding: 30px;
+}
+
+.card {
+  padding: 20px;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card > img {
+  width: 100%;
+  height: 40%;
+  border-radius: 25px;
+}
+
+.card > h2 {
+  text-align: left;
+  width: 90%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card > p {
+  text-align: justify;
+  width: 90%;
+  font-size: 18px;
+}
+
+.card-details {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  /* background-color: blue; */
+  justify-content: space-between;
+}
+
+.pagination {
+  width: 30vw;
+  margin: auto;   
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pagination > a {
+  padding: 15px 25px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  /* border: 2px solid white; */
+}
+
+a.active {
+  border-top: 2px solid rgb(227, 107, 108);
+  color: rgb(227, 107, 108);
+}
+
+.footer {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  width: 85vw;
+  margin: auto;
+  font-size: 25px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.footer button{
+  border-radius:10px ;
+  background-color: rgb(0, 162, 255);
+  color: white;
+  border: none;
+  padding: 8px;
+  font-size: 15px;
+}
