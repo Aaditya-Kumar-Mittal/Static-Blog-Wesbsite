@@ -20,7 +20,7 @@ A static blog website template designed for developers who want to showcase arti
 
 ## Demo
 
-[Live Demo](#)
+[Live Demo](https://aaditya-kumar-mittal.github.io/Static-Blog-Wesbsite/)
 
 ## Features
 
